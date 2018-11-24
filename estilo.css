@@ -1,0 +1,18 @@
+nav{
+ background-color: #D9F7FA;
+    padding-left: 120px !important;
+}
+body{
+ background-color: #D8DDDE !important;
+}
+.espaco{
+    padding-top: 30px !important;
+}
+.esconder-botao{
+    display: none !important;
+}
+
+.esp-footer{
+    margin-top: 30px !important;
+
+}
