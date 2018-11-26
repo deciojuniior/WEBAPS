@@ -1,18 +1,36 @@
 nav{
- background-color: #D9F7FA;
+
     padding-left: 120px !important;
 }
+.font-bar{
+    font-size: 21px !important;
+    color: white !important;
+}
 body{
- background-color: #D8DDDE !important;
+ background-color:  #dfdfbb!important;
 }
 .espaco{
     padding-top: 30px !important;
 }
-.esconder-botao{
-    display: none !important;
-}
-
 .esp-footer{
     margin-top: 30px !important;
 
+}
+.tamanho-noticia{
+    height: 300px !important;
+}
+button{
+    position: relative;
+    margin-top: 260px;
+}
+.fixa-bottom{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    /* left: 0; */
+    z-index: 1030;
+}
+
+.menu-fixado{
+    padding-top: 86px !important;
 }

@@ -5,182 +5,70 @@
     <title>Title</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" type="text/css" href="../bootstrap.css"/>
-
-
-
 </head>
 <body>
-<div class="container my-3" id="inicio">
+<div class="container-fluid " id="inicio">
     <div class="row">
-        <div class="col-4">
-            <img src="../imagens/troll.jpg" class="img-fluid">
+        <div class="col-12 mx-0 px-0">
+            <img src="../imagens/banner_noticias.png" class="img-fluid">
         </div>
     </div>
 </div>
-<nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">Menu</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary" id="navbar">
+    <a class="navbar-brand font-bar" href="#inicio">Início</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Início <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#ir">Ir para baixo</a>
+            <a class="nav-item nav-link font-bar" href="#card-noticia">Notícias </a>
+            <a class="nav-item nav-link font-bar" href="#ir">Contato</a>
         </div>
     </div>
 </nav>
 
-
-<span class="fixed-bottom esconder-botao mr-4 mb-5 pl-auto" id="voltar-topo">
-    <a href="#inicio"><img class="color-up" src="../imagens/pontas-de-seta-para-cima_318-60155.jpg" height="64" width="64"></a>
-  </span>
-
-
-<div class="container espaco">
+<div class="container espaco" id="card-noticia">
     <div class="row">
         <div class="col-6">
-            <div class="card">
+            <div class="card tamanho-noticia">
                 <div class="card-body">
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <div class="col-4">
                             <div class="mt-4">
-                                <img src="../imagens/testenoticia1.jpg" class="img-fluid">
+                                <img src="../imagens/esporte-galo.jpg" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-8">
-                            <h1>Noticia 1</h1>
-                            <p class="text-justify">Cada grupo recebera como tema para APS um tipo de site, e uma lista
-                                de 5
-                                sites desse
-                                tipo. Com base nesse tema o grupo terá que fazer as seguintes atividades:
-                                A. Elencar as características/informações desse tipo de site
-                                B.
+                            <h5>Ginásio Teodorico deve ter lotação máxima na partida entre Galo e Siqueira Campos</h5>
+                            <p class="text-justify">No último sábado, 17, o ginásio recebeu o maior público do ano: 1.139 torcedores.<br>
+                                Expectativa para o jogo decisivo é receber um público de 1.500 pessoas.
                             </p>
                         </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            Ver Mais
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-6">
-            <div class="card">
+            <div class="card tamanho-noticia">
                 <div class="card-body">
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <div class="col-4">
                             <div class="mt-4">
-                                <img src="../imagens/testenoticia1.jpg" class="img-fluid">
+                                <img src="../imagens/Interna.jpg" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-8">
-                            <h1>Noticia 1</h1>
-                            <p class="text-justify">Cada grupo recebera como tema para APS um tipo de site, e uma lista
-                                de 5
-                                sites desse
-                                tipo. Com base nesse tema o grupo terá que fazer as seguintes atividades:
-                                A. Elencar as características/informações desse tipo de site
-                                B.
+                            <h5>Veículo invade loja após colisão no Centro Sul de Dois Vizinhos</h5>
+                            <p class="text-justify">Colisão ocorreu por volta das 23 horas e envolveu veículos Cruze e Astra.
                             </p>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container espaco">
-    <div class="row">
-        <div class="col-6">
-            <div class="card">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="mt-4">
-                                <img src="../imagens/testenoticia1.jpg" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-8">
-                            <h1>Noticia 1</h1>
-                            <p class="text-justify">Cada grupo recebera como tema para APS um tipo de site, e uma lista
-                                de 5
-                                sites desse
-                                tipo. Com base nesse tema o grupo terá que fazer as seguintes atividades:
-                                A. Elencar as características/informações desse tipo de site
-                                B.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-6">
-            <div class="card">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="mt-4">
-                                <img src="../imagens/testenoticia1.jpg" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-8">
-                            <h1>Noticia 1</h1>
-                            <p class="text-justify">Cada grupo recebera como tema para APS um tipo de site, e uma lista
-                                de 5
-                                sites desse
-                                tipo. Com base nesse tema o grupo terá que fazer as seguintes atividades:
-                                A. Elencar as características/informações desse tipo de site
-                                B.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container espaco">
-    <div class="row">
-        <div class="col-6">
-            <div class="card">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="mt-4">
-                                <img src="../imagens/testenoticia1.jpg" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-8">
-                            <h1>Noticia 1</h1>
-                            <p class="text-justify">Cada grupo recebera como tema para APS um tipo de site, e uma lista
-                                de 5
-                                sites desse
-                                tipo. Com base nesse tema o grupo terá que fazer as seguintes atividades:
-                                A. Elencar as características/informações desse tipo de site
-                                B.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-6">
-            <div class="card">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="mt-4">
-                                <img src="../imagens/testenoticia1.jpg" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-8" id="ir">
-                            <h1>Noticia 1</h1>
-                            <p class="text-justify">Cada grupo recebera como tema para APS um tipo de site, e uma lista
-                                de 5
-                                sites desse
-                                tipo. Com base nesse tema o grupo terá que fazer as seguintes atividades:
-                                A. Elencar as características/informações desse tipo de site
-                                B.
-                            </p>
-                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa3">
+                            Ver Mais
+                        </button>
                     </div>
                 </div>
             </div>
@@ -188,70 +76,242 @@
     </div>
 </div>
 
-<footer class="bg-danger esp-footer">
+<div class="container espaco">
+    <div class="row">
+        <div class="col-6">
+            <div class="card tamanho-noticia">
+                <div class="card-body">
+                    <div class="row justify-content-center">
+                        <div class="col-4">
+                            <div class="mt-4">
+                                <img src="../imagens/g_30586.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <h5>Pesquisadores da UTFPR avaliam a poluição no rio Jirau Alto em Dois Vizinhos</h5>
+                            <p class="text-justify">Grau significativo de contaminação no principal rio de abastecimento público</p>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2">
+                            Ver Mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card tamanho-noticia">
+                <div class="card-body">
+                    <div class="row justify-content-center">
+                        <div class="col-4">
+                            <div class="mt-4">
+                                <img src="../imagens/g_30591.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <h5>Feira de Adoção de Cães e Gatos acontece neste sábado, dia 24</h5>
+                            <p class="text-justify">Neste sábado, dia 24, o Município de Pato Branco,
+                                por meio da Secretaria Municipal de Meio Ambiente, realizará
+                                a 29ª Feira de Adoção de Cães e Gatos.
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa4">
+                            Ver Mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container espaco">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <div class="card">
+                <div class="card-body">
+            <form id="ir">
+                <h1>Entre em Contato:</h1>
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="name" id="nome" class="form-control"  placeholder="Nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control"  aria-describedby="emailHelp"
+                           placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.
+                    </small>
+                </div>
+                <div class="form-group">
+                    <label for="textoarea">Digite sua mensagem</label>
+                    <textarea rows="5" class="form-control" id="textoarea" placeholder="Mensagem"></textarea>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Não sou um robô</label>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="Enviar()">Enviar</button>
+            </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="bg-primary esp-footer">
     <div class="container">
         <div class="row">
-            <div class="col-6"> Copiryte</div>
-            <div class="col-6">jjkkjhhhk</div>
+            <div class="col-6 text-white text-center"> ACCH WEB 1 - 2018</div>
+            <div class="col-6 text-white text-center">Arielyn Pádua Silva & Décio Kaspary Junior</div>
         </div>
     </div>
 </footer>
 
 
-
-
-
-
-
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-    Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
      aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <h3 class="modal-title" id="exampleModalLabel">Ginásio Teodorico deve ter lotação máxima na partida entre Galo e Siqueira Campos</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                ...
+                Neste sábado, 24, o Cresol/Vermelho/Galo recebe o Siqueira Campos para a terceira e decisiva partida da semifinal do Paranaense da Série Prata de Futsal. O time duovizinhense tem a vantagem do empate, por ter a melhor campanha na competição. Para o adversário, apenas a vitória interessa. O confronto, no ano, até agora, está equilibrado: na primeira partida da semifinal, vitória do Siqueira Campos por 5x1; no segundo jogo, em Dois Vizinhos, a vitória foi do Galo por 2x1. Na primeira fase, foram dois jogos, com um empate e uma vitória do Galo.
+
+                O último jogo, no entanto, ainda deixa marcas nos bastidores.
+                Depois da partida, a imprensa e diretores da equipe do Norte Pioneiro fizeram duras críticas à arbitragem
+                e à diretoria do Galo Futsal. Isso motivou uma resposta duovizinhense, que emitiu uma nota de repúdio quarta-feira, 21.
+                “Queremos expressar toda nossa indignação com a postura do adversário, através da imprensa de Siqueira Campos, antes,
+                durante e depois da partida. O resultado é consequência de um jogo e a derrota que aconteceu dentro da quadra, durante os 40 minutos.
+                Não a aceitando, membros da imprensa, jogadores, treinador e o presidente adversário utilizaram termos ofensivos
+                (‘ladrões’, ‘arbitragem não vai deixar a gente ganhar aqui’) e também ofenderam a diretoria do Galo. Em alguns momentos,
+                insinuaram que o nosso presidente, Arquimedes Restelato da Silva, que também é auxiliar-técnico da equipe e,
+                por isso, estava dentro de quadra (com as devidas autorizações), havia, de alguma forma, influenciado a postura da
+                arbitragem”, diz o documento.
+                Tudo isso se torna um ingrediente a mais para a partida decisiva, que vale a vaga na final e o acesso para a Série Ouro. “Claro que motiva, mas isso vale para os dois lados. A semana está sendo mais tranquila do que a anterior, pois conseguimos reverter a vantagem do adversário. Mesmo assim, o foco é total para esse jogo, onde se, conseguirmos a classificação, atingiremos o objetivo do ano”, disse o técnico Fabinho Gomes.
+                Ele destacou que os atletas Wendel, Gaúcho e Edimar seguem fazendo trabalhos intensos de fisioterapia para participar da partida. Do lado do Siqueira Campos, o goleiro Serra, que foi expulso no último jogo, é baixa garantida para o técnico Júnior.
+
+                Ingressos antecipados
+                O primeiro lote de ingressos está sendo vendido a R$ 10 nos pontos de venda de costume:
+                Cheiro Verde, No Ponto Norte, Café São Francisco, Mercado Bonardin e Mercado Belusso.
+                O segundo lote terá valor de R$ 15. O torcedor também pode comprar, a R$ 10, pelo site
+                www.ifutsal.com.br até as 17h de amanhã.
+                Na hora, o valor dos ingressos sobre para R$ 20.
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
             </div>
         </div>
     </div>
 </div>
 
+<div class="modal fade" id="exampleModa2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabe2"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabe2">Pesquisadores da UTFPR avaliam a poluição no rio Jirau Alto em Dois Vizinhos</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Pesquisadores da UTFPR câmpus Dois Vizinhos realizaram monitoramento ambiental durante um ano no Rio Jirau Alto. Este rio é responsável pelo abastecimento da água para a população urbana do município de Dois Vizinhos. A pesquisa foi coordenada pelos professores Elton C. Oliveira e Nédia C. Ghisi, do curso de Ciências Biológicas, com auxílio de graduandos e mestrandos do Programa de Pós-Graduação em Agroecossistemas da UTFPR. Pesquisas semelhantes já haviam sido realizadas por estes pesquisadores nas cidades de Campo Mourão e Maringá, Norte do Paraná.
+
+                Em suma, foram avaliados os peixes que habitam o rio em questão, ou seja, animais que estão constantemente expostos a todas as pressões infringidas a este ambiente. Nos peixes foram avaliadas as taxas de mutação e danos genéticos com testes específicos para esse fim, em células de sangue e fígado.
+
+                Foram avaliados quatro pontos ao longo do rio Jirau Alto desde a nascente até a foz. Inicialmente, esperava-se que a cabeceira (onde é feita a coleta de água para a população urbana) estivesse mais preservada. No entanto, infelizmente verificou-se que, de maneira geral, todo o rio apresenta indícios de contaminação por substância com potencial mutagênico (que causam mutação) e genotóxico (que quebram o DNA). Esta situação se acentua no verão. Os pesquisadores relatam que esta é uma situação preocupante, uma vez que a população humana que faz uso desta água pode estar exposta aos mesmos riscos impelidos a estes animais. Pesquisas anteriores já haviam demonstrado preocupação com a qualidade do rio Jirau, castigado pela supressão da mata ciliar das áreas de preservação permanente e reserva legal, e também pelo assoreamento dos córregos e nascentes que o abastecem.
+
+                Ao final do projeto, os resultados foram publicados na revista científica internacional ‘Bulletin of Environmental Contamination and Toxicology’ (Boletim de Contaminação Ambiental e Toxicologia) com o artigo intitulado “Waterborn Genotoxicity in Southern Brazil Using Astyanax bifasciatus (Pisces: Teleostei)”, em português "Genotoxicidade por águas no Sul do Brasil usando Astyanax bifasciatus (Peixes: Teleostei)".
+
+                Os resultados desta pesquisa reforçam os cuidados necessários com os mananciais e ambientes aquáticos, bem como das matas ciliares, uma vez que a população humana depende estritamente destes ambientes.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModa3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabe3"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabe3">Veículo invade loja após colisão no Centro Sul de Dois Vizinhos</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Um acidente aconteceu por volta das 23 horas de quinta-feira, 22, na esquina das Avenidas Paraná e Presidente Kennedy, em Dois Vizinhos.
+
+                Envolveram-se na colisão um Cruze, de cor branca, e um Astra, de cor Cinza, ambos de Dois Vizinhos. Após a batida, o veículo Cruze ficou desgovernado e invadiu uma loja de aviamentos.
+
+                Segundo informações de populares, ninguém ficou ferido no acidente, mas os danos na loja foram de grande monta, podendo chegar até R$20 mil. Os veículos também tiveram grandes danos. Antes de invadir o estabelecimento, o Cruze atingiu uma barreira de ferro que fica na calçada, o que acabou diminuindo o impacto e a estrutura do prédio não foi afetada.
+
+                A Policia Militar esteve no local. Não há informações das causas do acidente.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModa4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabe4"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabe4">Feira de Adoção de Cães e Gatos acontece neste sábado, dia 24</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Neste sábado, dia 24, o Município de Pato Branco, por meio da Secretaria Municipal de Meio Ambiente, realizará a 29ª Feira de Adoção de Cães e Gatos. Com 70 animais disponíveis para adoção, a Feira acontecerá das 08h30 às 12h30, na Avenida Tupi, junto ao Posto Gabriel. A iniciativa conta com a parceria do Conselho Municipal de Proteção dos Animais (Compato), além do apoio do Interact Club Pato Branco, Ordem Internacional do Arco-Íris para Meninas e da Associação de Protetores de Animais Arca da Vida.
+
+                Para fazer a adoção, é necessário ter mais de 18 anos, apresentar RG, CPF, comprovante de residência e preencher o termo de adoção responsável que será fornecido na feira. Mais informações, podem ser obtidas na Secretaria de Meio Ambiente, junto à Prefeitura, ou pelo (46) 3220-1505.
+
+                Os cães e gatos disponíveis nas feiras são resgatados das ruas ou encontram-se em situações de risco. Além das feiras mensais, Pato Branco conta com ações de conscientização voltadas ao cuidado e respeito com os animais, promovidas pelo Município, com apoio de ONGs de proteção que realizam o acolhimento de animais.
+
+                Programa municipal
+
+                As feiras realizadas pelo Município iniciaram em 2014 e, desde então, oportunizaram a adoção de mais de 1.068 animais em Pato Branco. Após adotados, eles são castrados e chipados, gratuitamente, pelo Programa Municipal de Controle Populacional de Animais de Rua.
+
+                O Programa de castração e chipagem, que também iniciou em 2014, atendeu cerca de 2.200 cães e gatos com o procedimento cirúrgico. No início das ações, a iniciativa contou com recursos do Fundo Municipal de Meio Ambiente e, hoje, os investimentos são da Secretaria Municipal de Meio Ambiente.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <script src="jquery.min.js"></script>
 <script src="bootstrap.bundle.js"></script>
 <script src="jquery.easing.min.js"></script>
 <script src="home.js"></script>
-
-
-<script>$('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').trigger('focus')})
-</script>
-
+<script type="text/javascript" src="form.js"></script>
 
 
 <script>
     var $w = $(window);
 
     $w.on("scroll", function () {
-        if ($w.scrollTop() > 500) {
-            $("#voltar-topo").removeClass("esconder-botao");
+        if($w.scrollTop() > 230){
+            $("#navbar").addClass("fixed-top");
+            $("#card-noticia").addClass("menu-fixado");
         }
-        if ($w.scrollTop() < 500) {
-            $("#voltar-topo").addClass("esconder-botao");
+        if($w.scrollTop() < 230){
+            $("#navbar").removeClass("fixed-top");
+            $("#card-noticia").removeClass("menu-fixado");
         }
     });
 </script>
