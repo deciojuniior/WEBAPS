@@ -1,5 +1,4 @@
 nav{
-
     padding-left: 120px !important;
 }
 .font-bar{
@@ -14,14 +13,12 @@ body{
 }
 .esp-footer{
     margin-top: 30px !important;
-
 }
 .tamanho-noticia{
     height: 300px !important;
 }
 button{
     position: relative;
-    margin-top: 260px;
 }
 .fixa-bottom{
     position: fixed;
@@ -30,7 +27,6 @@ button{
     /* left: 0; */
     z-index: 1030;
 }
-
 .menu-fixado{
     padding-top: 86px !important;
 }
